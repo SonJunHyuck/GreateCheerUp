@@ -1,0 +1,50 @@
+# Unity 기본 파일 무시
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# 사용자 설정 파일 무시
+UserSettings/
+.vscode/               # Visual Studio Code 설정 디렉터리
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity 플러그인 관련 파일 무시
+*.pidb.meta
+*.pdb.meta
+*.mdb
+*.mdb.meta
+
+# Unity의 빌드 결과물 무시
+*.apk
+*.aab
+*.unitypackage
+
+# 운영체제별 파일 무시
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio 및 Rider 관련 파일 무시
+.vscode/                # Visual Studio Code 설정 디렉터리
+*.CodeAnalysisLog.xml
+.idea/
+*.sln.iml
+
+# gif 폴더
+gif/
