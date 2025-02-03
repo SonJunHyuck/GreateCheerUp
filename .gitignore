@@ -1,50 +1,134 @@
-# Unity 기본 파일 무시
+# --- Unity 기본 무시 파일 ---
+
+# Unity 자동 생성 파일 (라이브러리, 빌드 캐시, 사용자 설정)
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
-
-# 사용자 설정 파일 무시
 UserSettings/
-.vscode/               # Visual Studio Code 설정 디렉터리
+MemoryCaptures/
+.harmony/
+.yarn-integrations/
+
+# Unity 패키지 캐시 파일 (Cloud 저장소 불필요)
+Packages/manifest.json
+Packages/packages-lock.json
+
+# Play Mode 저장된 상태 (불필요한 프로젝트 설정 데이터)
+ProjectSettings/EditorBuildSettings.asset
+
+# --- Mac 사용자 관련 무시 파일 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS에서 실행 속성 보존 파일 (Spotlight, Finder 관련)
+.metadata_never_index
+.noindex
+
+# --- Visual Studio 및 Visual Studio Code 관련 무시 파일 ---
+
+# Visual Studio 관련
+.vs/
 *.csproj
-*.unityproj
 *.sln
 *.suo
-*.tmp
 *.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
+*.userosscache
+*.sln.docstates
+*.ncb
 *.pdb
 *.opendb
 *.VC.db
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
 
-# Unity 플러그인 관련 파일 무시
-*.pidb.meta
-*.pdb.meta
-*.mdb
-*.mdb.meta
+# VS Code 관련 (워크스페이스 및 확장 관련 파일)
+.vscode/
+*.code-workspace
+.history/
+*.log
+*.bak
+*.orig
 
-# Unity의 빌드 결과물 무시
-*.apk
-*.aab
-*.unitypackage
-
-# 운영체제별 파일 무시
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Visual Studio 및 Rider 관련 파일 무시
-.vscode/                # Visual Studio Code 설정 디렉터리
-*.CodeAnalysisLog.xml
+# JetBrains Rider (Unity용 IDE) 관련
 .idea/
-*.sln.iml
+*.iml
 
-# gif 폴더
-gif/
+# --- 리소스 관련 무시 파일 (코드 및 설정 파일만 포함) ---
+
+# Assets 폴더 내 리소스 제외 (코드 및 설정 파일만 포함)
+Assets/**/*.png
+Assets/**/*.jpg
+Assets/**/*.jpeg
+Assets/**/*.tga
+Assets/**/*.psd
+Assets/**/*.gif
+Assets/**/*.bmp
+Assets/**/*.tiff
+Assets/**/*.mp3
+Assets/**/*.wav
+Assets/**/*.ogg
+Assets/**/*.flac
+Assets/**/*.aiff
+Assets/**/*.m4a
+Assets/**/*.ttf
+Assets/**/*.otf
+Assets/**/*.woff
+Assets/**/*.woff2
+Assets/**/*.fbx
+Assets/**/*.obj
+Assets/**/*.blend
+Assets/**/*.dae
+Assets/**/*.max
+Assets/**/*.3ds
+Assets/**/*.c4d
+Assets/**/*.mb
+Assets/**/*.ma
+Assets/**/*.stl
+Assets/**/*.gltf
+Assets/**/*.glb
+Assets/**/*.mat
+Assets/**/*.shader
+Assets/**/*.prefab
+Assets/**/*.controller
+Assets/**/*.anim
+Assets/**/*.unity
+Assets/**/*.exr
+Assets/**/*.hdr
+
+# 리소스 폴더 무시 (전체적으로 리소스 폴더를 제외)
+Assets/Graphics/
+Assets/Audio/
+Assets/Prefabs/
+Assets/Materials/
+Assets/Models/
+Assets/Textures/
+Assets/Fonts/
+Assets/Animations/
+Assets/Shaders/
+
+# 제외하지 않을 항목 (C# 스크립트, 프로젝트 설정 파일)
+!Assets/**/*.cs
+!Assets/**/*.asmdef
+!Assets/**/*.json
+!Assets/**/*.xml
+!Assets/**/*.txt
+!Assets/**/*.yaml
+!Assets/**/*.bytes
+
+# --- 기타 무시 파일 ---
+# Unity Cloud Build 환경 설정
+*.cloud
+*.swp
+*.swo
+*.lock
+*.log
+*.bak
+*.orig
