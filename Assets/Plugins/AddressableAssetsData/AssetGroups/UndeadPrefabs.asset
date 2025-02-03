@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UndeadPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: UndeadPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7b395152bba8f407598f26baa415501b
+  m_SerializeEntries:
+  - m_GUID: b1bc48e5a56dc45c0b8d9383777d3936
+    m_Address: UndeadArcher
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b32fcf58e6f8c4d67ad1a3e371617495
+    m_Address: UndeadSwordMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78de49548f7aa4ffea4cf6e566b0de82
+    m_Address: UndeadHammerMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ede9c37cee3a8428abd7c792f625f401
+    m_Address: UndeadMageIce
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08d119a4924f43659c2c01150ea6150
+    m_Address: UndeadRogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14e628dbbcb3a47fcbbfa3b4b2656bd6
+    m_Address: UndeadAxeMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dd151b70f5ec4ea0a81944a5402b71b
+    m_Address: UndeadMageFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Undead
+    - Enemy
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 20c6b065f1b4a46abbeabd58d9d35b13, type: 2}
+    - {fileID: 11400000, guid: ad2f2be56b1ca40bc83a656bc2b66c6b, type: 2}

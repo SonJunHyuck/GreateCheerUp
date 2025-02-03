@@ -1,0 +1,1282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadb119657743403c8867217aee31d3c, type: 3}
+  m_Name: GradeInfo
+  m_EditorClassIdentifier: 
+  gradeInfoList:
+  - unitKey: 01_SwordMan
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 01_SwordMan
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 01_SwordMan
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 01_SwordMan
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 01_SwordMan
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 01_SwordMan
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 01_SwordMan
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 01_SwordMan
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 01_SwordMan
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 01_SwordMan
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 01_SwordMan
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 01_SwordMan
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 01_SwordMan
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 01_SwordMan
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 01_SwordMan
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 01_SwordMan
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 01_SwordMan
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 01_SwordMan
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 01_SwordMan
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 01_SwordMan
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 02_Archer
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 02_Archer
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 02_Archer
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 02_Archer
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 02_Archer
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 02_Archer
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 02_Archer
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 02_Archer
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 02_Archer
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 02_Archer
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 02_Archer
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 02_Archer
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 02_Archer
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 02_Archer
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 02_Archer
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 02_Archer
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 02_Archer
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 02_Archer
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 02_Archer
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 02_Archer
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 03_HammerMan
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 03_HammerMan
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 03_HammerMan
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 03_HammerMan
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 03_HammerMan
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 03_HammerMan
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 03_HammerMan
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 03_HammerMan
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 03_HammerMan
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 03_HammerMan
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 03_HammerMan
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 03_HammerMan
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 03_HammerMan
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 03_HammerMan
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 03_HammerMan
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 03_HammerMan
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 03_HammerMan
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 03_HammerMan
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 03_HammerMan
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 03_HammerMan
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 04_Rogue
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 04_Rogue
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 04_Rogue
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 04_Rogue
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 04_Rogue
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 04_Rogue
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 04_Rogue
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 04_Rogue
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 04_Rogue
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 04_Rogue
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 04_Rogue
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 04_Rogue
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 04_Rogue
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 04_Rogue
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 04_Rogue
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 04_Rogue
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 04_Rogue
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 04_Rogue
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 04_Rogue
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 04_Rogue
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 05_AxeMan
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 05_AxeMan
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 05_AxeMan
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 05_AxeMan
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 05_AxeMan
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 05_AxeMan
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 05_AxeMan
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 05_AxeMan
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 05_AxeMan
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 05_AxeMan
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 05_AxeMan
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 05_AxeMan
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 05_AxeMan
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 05_AxeMan
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 05_AxeMan
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 05_AxeMan
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 05_AxeMan
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 05_AxeMan
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 05_AxeMan
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 05_AxeMan
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 06_MageFire
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 06_MageFire
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 06_MageFire
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 06_MageFire
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 06_MageFire
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 06_MageFire
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 06_MageFire
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 06_MageFire
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 06_MageFire
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 06_MageFire
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 06_MageFire
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 06_MageFire
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 06_MageFire
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 06_MageFire
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 06_MageFire
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 06_MageFire
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 06_MageFire
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 06_MageFire
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 06_MageFire
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 06_MageFire
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 07_MageIce
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 07_MageIce
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 07_MageIce
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 07_MageIce
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 07_MageIce
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 07_MageIce
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 07_MageIce
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 07_MageIce
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 07_MageIce
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 07_MageIce
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 07_MageIce
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 07_MageIce
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 07_MageIce
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 07_MageIce
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 07_MageIce
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 07_MageIce
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 07_MageIce
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 07_MageIce
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 07_MageIce
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 07_MageIce
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 08_Knight
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 08_Knight
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 08_Knight
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 08_Knight
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 08_Knight
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 08_Knight
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 08_Knight
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 08_Knight
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 08_Knight
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 08_Knight
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 08_Knight
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 08_Knight
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 08_Knight
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 08_Knight
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 08_Knight
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 08_Knight
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 08_Knight
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 08_Knight
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 08_Knight
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 08_Knight
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 09_Cavalry
+    grade: 1
+    attack: 11
+    speed: 5
+    health: 100
+    special: 0
+    upgradeGold: 200
+  - unitKey: 09_Cavalry
+    grade: 2
+    attack: 12
+    speed: 5
+    health: 110
+    special: 0
+    upgradeGold: 400
+  - unitKey: 09_Cavalry
+    grade: 3
+    attack: 13
+    speed: 5
+    health: 115
+    special: 0
+    upgradeGold: 800
+  - unitKey: 09_Cavalry
+    grade: 4
+    attack: 14
+    speed: 5
+    health: 120
+    special: 0
+    upgradeGold: 1600
+  - unitKey: 09_Cavalry
+    grade: 5
+    attack: 15
+    speed: 6
+    health: 130
+    special: 0
+    upgradeGold: 3200
+  - unitKey: 09_Cavalry
+    grade: 6
+    attack: 16
+    speed: 6
+    health: 135
+    special: 0
+    upgradeGold: 6400
+  - unitKey: 09_Cavalry
+    grade: 7
+    attack: 17
+    speed: 6
+    health: 140
+    special: 0
+    upgradeGold: 12800
+  - unitKey: 09_Cavalry
+    grade: 8
+    attack: 18
+    speed: 6
+    health: 145
+    special: 0
+    upgradeGold: 25600
+  - unitKey: 09_Cavalry
+    grade: 9
+    attack: 19
+    speed: 6
+    health: 150
+    special: 0
+    upgradeGold: 51200
+  - unitKey: 09_Cavalry
+    grade: 10
+    attack: 20
+    speed: 7
+    health: 160
+    special: 0
+    upgradeGold: 102400
+  - unitKey: 09_Cavalry
+    grade: 11
+    attack: 21
+    speed: 7
+    health: 165
+    special: 0
+    upgradeGold: 204800
+  - unitKey: 09_Cavalry
+    grade: 12
+    attack: 22
+    speed: 7
+    health: 170
+    special: 0
+    upgradeGold: 409600
+  - unitKey: 09_Cavalry
+    grade: 13
+    attack: 23
+    speed: 7
+    health: 175
+    special: 0
+    upgradeGold: 819200
+  - unitKey: 09_Cavalry
+    grade: 14
+    attack: 24
+    speed: 7
+    health: 180
+    special: 0
+    upgradeGold: 1638400
+  - unitKey: 09_Cavalry
+    grade: 15
+    attack: 25
+    speed: 8
+    health: 190
+    special: 0
+    upgradeGold: 3276800
+  - unitKey: 09_Cavalry
+    grade: 16
+    attack: 26
+    speed: 8
+    health: 195
+    special: 0
+    upgradeGold: 6553600
+  - unitKey: 09_Cavalry
+    grade: 17
+    attack: 27
+    speed: 8
+    health: 200
+    special: 0
+    upgradeGold: 13107200
+  - unitKey: 09_Cavalry
+    grade: 18
+    attack: 28
+    speed: 8
+    health: 205
+    special: 0
+    upgradeGold: 26214400
+  - unitKey: 09_Cavalry
+    grade: 19
+    attack: 29
+    speed: 8
+    health: 210
+    special: 0
+    upgradeGold: 52428800
+  - unitKey: 09_Cavalry
+    grade: 20
+    attack: 30
+    speed: 9
+    health: 220
+    special: 0
+    upgradeGold: 999999999
+  - unitKey: 99_Max
+    grade: 99
+    attack: 100
+    speed: 10
+    health: 3000
+    special: 100
+    upgradeGold: 0

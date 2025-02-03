@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AllyPrefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: AllyPrefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c8c1e4ab82ef342ddb910c571a0a6ce8
+  m_SerializeEntries:
+  - m_GUID: 9e7ee92b1280e42c9b5dad4bb8e48dbe
+    m_Address: 02_Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e6ea85fd7ef944aa98a70490181137a
+    m_Address: 03_HammerMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cf2b29e972e44732946aa937a8b37a4
+    m_Address: 01_SwordMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c46ca95ca39e4555b672b87772c4da0
+    m_Address: 08_Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9508de0a7e6346eca8a7610732b0fb1
+    m_Address: 06_MageFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37155d32fb77748db8bded42d0d75959
+    m_Address: 07_MageIce
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e2ba6432f7f4f8a9327b4f784628ba
+    m_Address: 04_Rogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf32dfda41170489d8e1975ef68615da
+    m_Address: 05_AxeMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb82969f1202b4527ab0e7bae1e69d7f
+    m_Address: 09_Cavalry
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Ally
+    - Unit
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 91c79948c0fab4c17a3bf04da0f127b0, type: 2}
+    - {fileID: 11400000, guid: b879eb6a931fa45cc88e31e45730cd63, type: 2}

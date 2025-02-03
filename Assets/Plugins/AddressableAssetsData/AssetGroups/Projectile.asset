@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Projectile
+  m_EditorClassIdentifier: 
+  m_GroupName: Projectile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f4c2ae395472b4a3e90336d2634c57ab
+  m_SerializeEntries:
+  - m_GUID: 61af1a60db2434398b3bca4eb1fd09a4
+    m_Address: ProjectileArcFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectile
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d1ef5abc93e546eebb9a2e72a268378
+    m_Address: ProjectileArc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectile
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0496351ed3e84958a9b287fa0a7f692
+    m_Address: ProjectileArrow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectile
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b7e21a7781704c459b80d3e7577bfb7
+    m_Address: Projectile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectile
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f959adf6cb794fd9bc82d70d3fd9f2e
+    m_Address: ProjectileLineIce
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Projectile
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 06f298bf643ec46f0ba6b6aab68a160e, type: 2}
+    - {fileID: 11400000, guid: 31076a33f2ca34b40bd8f7b314a9b25f, type: 2}

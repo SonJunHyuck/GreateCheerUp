@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 7c7cd92a344194078a794eb4f955cb64
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1874
+        width: 87
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7aea7417634460a30e8a86053966d
+      internalID: 1208496915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1874
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def133b09ba6d4274a41f320fc9264c6
+      internalID: 1366212363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1874
+        width: 94
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f66ff73c9d645168140541371f07f5
+      internalID: 1903777177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1874
+        width: 101
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeec21b288c24e49980467c2154911e
+      internalID: 146897398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1874
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925886b4b3ed841078ca77caa1db0751
+      internalID: -891761273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_5
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1874
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5edc4e0c37d741f390db2950a89043c
+      internalID: -830444662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_6
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1874
+        width: 108
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ee3b640d914ca8839bbe4d4bdec0b
+      internalID: 644397995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_7
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1874
+        width: 105
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7d30734443d43b1bf726ff1098a56c
+      internalID: -1092478285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_8
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1874
+        width: 108
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6b381fd22384765ad8fdd2e6193ba1
+      internalID: 2117678086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_9
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1923
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a485713821e4d5b96092e8cacc0938
+      internalID: 49156191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_10
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1874
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8fce699b7ac4933924407477c100e4
+      internalID: -557255917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1714
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1512fb76372b4e1eb2ef4f26db6ec53
+      internalID: 364873076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1684
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa8dcb6a68a478eb8714cbcc463f60
+      internalID: 721315742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1684
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f586ddcb117af406fb48b6b9145c8d6b
+      internalID: 664790112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_14
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1684
+        width: 91
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9673e7a28cd4c3eb872b327acec1de
+      internalID: -220583941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_0: 1208496915
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_1: 1366212363
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_10: -557255917
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_11: 364873076
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_12: 721315742
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_13: 664790112
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_14: -220583941
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_2: 1903777177
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_3: 146897398
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_4: -891761273
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_5: -830444662
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_6: 644397995
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_7: -1092478285
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_8: 2117678086
+      SPUM_20241011165528980_ATTACK2_0_Attack_Bow_0_9: 49156191
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

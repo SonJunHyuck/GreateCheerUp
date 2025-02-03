@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIUnit
+  m_EditorClassIdentifier: 
+  m_GroupName: UIUnit
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b69f1538f37794b34b357a2277a73381
+  m_SerializeEntries:
+  - m_GUID: 7d570d33875b34fb1a0146e78afdcd23
+    m_Address: 02_ArcherUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9f63f15accf74d6ca3ca2c2244e04ca
+    m_Address: 03_HammerManUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73c50912f13ae456caec89b541348cde
+    m_Address: 04_RogueUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1381682fb2d2f46a2bc4b2be0a88178f
+    m_Address: 05_AxeManUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be9c6f39672f1458495298e863ebdbd4
+    m_Address: 06_MageFireUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a097cd41ef86f490e98e107b18c8d865
+    m_Address: 07_MageIceUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eeac003f28d2492a9bccf8f00f1bf06
+    m_Address: 08_KnightUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6e0c6754a55a48ef934a764e301505c
+    m_Address: 01_SwordManUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c3b2cf4d58bc478dbc88e524e6ad1f4
+    m_Address: 09_CavalryUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIUnit
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1e7247a28276149e889e0942c6bbf79b, type: 2}
+    - {fileID: 11400000, guid: 5860910f018ea44878b2e2855200ba4c, type: 2}

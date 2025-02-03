@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ScriptableObject
+  m_EditorClassIdentifier: 
+  m_GroupName: ScriptableObject
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ddf649e18cfd045839ff15942e6f5707
+  m_SerializeEntries:
+  - m_GUID: 5cebe86b07b82479d86fa631fa24cd91
+    m_Address: UnitGradeInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e7a2a58b294433198d1a875f75bfd0
+    m_Address: StageInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c730338550b04b81b131bf658d2400a
+    m_Address: AllyInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4862f1a0e400449c93473afda3f667e
+    m_Address: SpawnRule
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f11b19bec805e452398d6ed06174c86b
+    m_Address: UnitKey
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dd0fd8ec37754f1c9c729bb2e53c1ac
+    m_Address: EnemyInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    - InfoData
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a7ef1daca440d4dea8f346ebf56dcc74, type: 2}
+    - {fileID: 11400000, guid: dd67bfca3a8074271b26d2b4c22d85f5, type: 2}

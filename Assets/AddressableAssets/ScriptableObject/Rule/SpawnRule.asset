@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7dd2fcf2a4d43af8512fb09c463253, type: 3}
+  m_Name: SpawnRule
+  m_EditorClassIdentifier: 
+  spawnRules:
+  - stageId: 1
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 1
+    key: UndeadArcher
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 1
+    key: UndeadAxeMan
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 2
+    key: UndeadMageIce
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 2
+    key: UndeadMageFire
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 2
+    key: UndeadHammerMan
+    spawnCount: 3
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 3
+    key: UndeadMageIce
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 3
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 3
+    key: UndeadMageFire
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 4
+    key: UndeadHammerMan
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 4
+    key: UndeadArcher
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 4
+    key: UndeadArcher
+    spawnCount: 1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 5
+    key: UndeadRogue
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 5
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 5
+    key: UndeadArcher
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 6
+    key: UndeadArcher
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 6
+    key: UndeadHammerMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 6
+    key: UndeadAxeMan
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 7
+    key: UndeadMageFire
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 7
+    key: UndeadArcher
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 7
+    key: UndeadArcher
+    spawnCount: 1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 8
+    key: UndeadArcher
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 8
+    key: UndeadAxeMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 8
+    key: UndeadSwordMan
+    spawnCount: 3
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 9
+    key: UndeadAxeMan
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 9
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 9
+    key: UndeadMageIce
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 10
+    key: UndeadRogue
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 10
+    key: UndeadArcher
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 10
+    key: UndeadMageIce
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 11
+    key: UndeadHammerMan
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 11
+    key: UndeadAxeMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 11
+    key: UndeadArcher
+    spawnCount: 1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 12
+    key: UndeadMageFire
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 12
+    key: UndeadHammerMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 12
+    key: UndeadAxeMan
+    spawnCount: 3
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 13
+    key: UndeadArcher
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 13
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 13
+    key: UndeadAxeMan
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 14
+    key: UndeadHammerMan
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 14
+    key: UndeadMageIce
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 14
+    key: UndeadSwordMan
+    spawnCount: 1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 15
+    key: UndeadHammerMan
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 15
+    key: UndeadMageFire
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 15
+    key: UndeadArcher
+    spawnCount: 3
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 16
+    key: UndeadHammerMan
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 16
+    key: UndeadArcher
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 16
+    key: UndeadArcher
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 17
+    key: UndeadArcher
+    spawnCount: 10
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 17
+    key: UndeadHammerMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 17
+    key: UndeadAxeMan
+    spawnCount: 1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 18
+    key: UndeadSwordMan
+    spawnCount: 20
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 18
+    key: UndeadMageIce
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 18
+    key: UndeadMageFire
+    spawnCount: 3
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 19
+    key: UndeadMageIce
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 19
+    key: UndeadSwordMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 19
+    key: UndeadHammerMan
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5
+  - stageId: 20
+    key: UndeadMageIce
+    spawnCount: 25
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 20
+    key: UndeadAxeMan
+    spawnCount: -1
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 3
+    maxInterval: 5
+  - stageId: 20
+    key: UndeadAxeMan
+    spawnCount: 4
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    minInterval: 5
+    maxInterval: 5

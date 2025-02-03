@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279e330064a57414c9283314fe52318d, type: 3}
+  m_Name: AllyInfo
+  m_EditorClassIdentifier: 
+  units:
+  - unitKey: 01_SwordMan
+    unitName: SwordMan
+    unitUIPrefab: {fileID: 4150081509325534612, guid: c6e0c6754a55a48ef934a764e301505c, type: 3}
+    unitIcon: {fileID: 21300000, guid: 653c3e2952a2145c3b6963e9352bef95, type: 3}
+    description: This Unit is SwordMan
+    cost: 10
+  - unitKey: 02_Archer
+    unitName: Archer
+    unitUIPrefab: {fileID: 8513567134263249833, guid: 7d570d33875b34fb1a0146e78afdcd23, type: 3}
+    unitIcon: {fileID: 21300000, guid: 10b196a94505843ca9059961d2f40531, type: 3}
+    description: This Unit is Archer
+    cost: 20
+  - unitKey: 03_HammerMan
+    unitName: HammerMan
+    unitUIPrefab: {fileID: 7807884915677496562, guid: a9f63f15accf74d6ca3ca2c2244e04ca, type: 3}
+    unitIcon: {fileID: 21300000, guid: 244ef6576a35e467eb2d397cba71f172, type: 3}
+    description: This Unit is HammerMan
+    cost: 40
+  - unitKey: 04_Rogue
+    unitName: Rogue
+    unitUIPrefab: {fileID: 234146238265913746, guid: 73c50912f13ae456caec89b541348cde, type: 3}
+    unitIcon: {fileID: 21300000, guid: 653c3e2952a2145c3b6963e9352bef95, type: 3}
+    description: This Unit is Rogue
+    cost: 30
+  - unitKey: 05_AxeMan
+    unitName: AxeMan
+    unitUIPrefab: {fileID: 6865196327972323614, guid: 1381682fb2d2f46a2bc4b2be0a88178f, type: 3}
+    unitIcon: {fileID: 21300000, guid: 653c3e2952a2145c3b6963e9352bef95, type: 3}
+    description: This Unit is AxeMan
+    cost: 50
+  - unitKey: 06_MageFire
+    unitName: MageFire
+    unitUIPrefab: {fileID: 5125769098937425740, guid: be9c6f39672f1458495298e863ebdbd4, type: 3}
+    unitIcon: {fileID: 21300000, guid: d7daa4f980154410eb97714d090fa96d, type: 3}
+    description: This Unit is MageFire
+    cost: 100
+  - unitKey: 07_MageIce
+    unitName: MageIce
+    unitUIPrefab: {fileID: 3193341499040838301, guid: a097cd41ef86f490e98e107b18c8d865, type: 3}
+    unitIcon: {fileID: 21300000, guid: d7daa4f980154410eb97714d090fa96d, type: 3}
+    description: This Unit is MageIce
+    cost: 100
+  - unitKey: 08_Knight
+    unitName: Knight
+    unitUIPrefab: {fileID: 4903770138202492682, guid: 5eeac003f28d2492a9bccf8f00f1bf06, type: 3}
+    unitIcon: {fileID: 21300000, guid: 4106713d292504d499e3fc497384e880, type: 3}
+    description: This Unit is Knight
+    cost: 120
+  - unitKey: 09_Cavalry
+    unitName: Cavalry
+    unitUIPrefab: {fileID: 5684910024575338129, guid: 7c3b2cf4d58bc478dbc88e524e6ad1f4, type: 3}
+    unitIcon: {fileID: 21300000, guid: 653c3e2952a2145c3b6963e9352bef95, type: 3}
+    description: This Unit is Cavalry
+    cost: 150

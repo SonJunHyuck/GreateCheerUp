@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab07d789fc24340488a90fc56785a84d, type: 3}
+  m_Name: StageInfo
+  m_EditorClassIdentifier: 
+  stageInfoList:
+  - stageId: 1
+    stageName: 1
+    sceneName: Forest
+    description: Forest1
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 600
+    EnemyBossMaxHp: 1000
+  - stageId: 2
+    stageName: 2
+    sceneName: Forest
+    description: Forest2
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 700
+    EnemyBossMaxHp: 1200
+  - stageId: 3
+    stageName: 3
+    sceneName: Forest
+    description: Forest3
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 800
+    EnemyBossMaxHp: 1400
+  - stageId: 4
+    stageName: 4
+    sceneName: Forest
+    description: Forest4
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 900
+    EnemyBossMaxHp: 1600
+  - stageId: 5
+    stageName: 5
+    sceneName: Forest
+    description: Forest5
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 1000
+    EnemyBossMaxHp: 1000
+  - stageId: 6
+    stageName: 6
+    sceneName: Field
+    description: Field1
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 600
+    EnemyBossMaxHp: 1000
+  - stageId: 7
+    stageName: 7
+    sceneName: Field
+    description: Field2
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 700
+    EnemyBossMaxHp: 1200
+  - stageId: 8
+    stageName: 8
+    sceneName: Field
+    description: Field3
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 800
+    EnemyBossMaxHp: 1400
+  - stageId: 9
+    stageName: 9
+    sceneName: Field
+    description: Field4
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 900
+    EnemyBossMaxHp: 1600
+  - stageId: 10
+    stageName: 10
+    sceneName: Field
+    description: Field5
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 1000
+    EnemyBossMaxHp: 1000
+  - stageId: 11
+    stageName: 11
+    sceneName: Desert
+    description: Desert1
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 600
+    EnemyBossMaxHp: 1000
+  - stageId: 12
+    stageName: 12
+    sceneName: Desert
+    description: Desert2
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 700
+    EnemyBossMaxHp: 1200
+  - stageId: 13
+    stageName: 13
+    sceneName: Desert
+    description: Desert3
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 800
+    EnemyBossMaxHp: 1400
+  - stageId: 14
+    stageName: 14
+    sceneName: Desert
+    description: Desert4
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 900
+    EnemyBossMaxHp: 1600
+  - stageId: 15
+    stageName: 15
+    sceneName: Desert
+    description: Desert5
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 1000
+    EnemyBossMaxHp: 1000
+  - stageId: 16
+    stageName: 16
+    sceneName: Desert
+    description: Desert6
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 600
+    EnemyBossMaxHp: 1000
+  - stageId: 17
+    stageName: 17
+    sceneName: Desert
+    description: Desert7
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 700
+    EnemyBossMaxHp: 1200
+  - stageId: 18
+    stageName: 18
+    sceneName: Desert
+    description: Desert8
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 800
+    EnemyBossMaxHp: 1400
+  - stageId: 19
+    stageName: 19
+    sceneName: Desert
+    description: Desert9
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 900
+    EnemyBossMaxHp: 1600
+  - stageId: 20
+    stageName: 20
+    sceneName: Desert
+    description: Desert10
+    timeLimit1: 120
+    timeLimit2: 240
+    AllyBossMaxHp: 1000
+    EnemyBossMaxHp: 1000

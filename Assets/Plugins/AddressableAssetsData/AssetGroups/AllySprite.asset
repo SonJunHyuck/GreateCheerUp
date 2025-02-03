@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AllySprite
+  m_EditorClassIdentifier: 
+  m_GroupName: AllySprite
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d57f488fd3f0c47028fc3f9c02063dd3
+  m_SerializeEntries:
+  - m_GUID: 64974472789454a83a6b052e1ed09955
+    m_Address: 09_SpriteCavalry
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1be743c34afb421ebf31b96c8b96844
+    m_Address: 01_SpriteSwordMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b0bf7c5d4de4a25b5837c96fbc1107
+    m_Address: 02_SpriteArcher
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ddaa99102f46472dbae5b915b5e8596
+    m_Address: 05_SpriteAxeMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0c8a5aa204eb447cbf4cf61a9f592b2
+    m_Address: 03_SpriteHammerMan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb31a5cef3c3f497eaaa38d08e63fa2b
+    m_Address: 06_SpriteMageFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ccc735725e8b4ff3bdd04457cb92bd3
+    m_Address: 08_SpriteKnight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dd50fbe5f9b94216a41ed4070b3757e
+    m_Address: 07_SpriteMageIce
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67a986f63032497fa14c5028b8895c3
+    m_Address: 04_SpriteRogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SpriteAlly
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8e47d24349db4492486a65d461b96ca9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ca980c660198243cbbf1829dd302e674, type: 2}
+    - {fileID: 11400000, guid: 2860a1155432e43f2bd818b1a9b88230, type: 2}

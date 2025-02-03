@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e130beb6c6de4d8197bc5f99d202fcd, type: 3}
+  m_Name: EnemyInfo
+  m_EditorClassIdentifier: 
+  units:
+  - unitKey: UndeadSwordMan
+    attack: 7
+    speed: 3
+    health: 200
+    special: 0
+    gold: 100
+  - unitKey: UndeadArcher
+    attack: 5
+    speed: 2
+    health: 100
+    special: 0
+    gold: 150
+  - unitKey: UndeadHammerMan
+    attack: 1
+    speed: 2
+    health: 300
+    special: 20
+    gold: 500
+  - unitKey: UndeadRogue
+    attack: 7
+    speed: 4
+    health: 150
+    special: 0
+    gold: 300
+  - unitKey: UndeadMageIce
+    attack: 10
+    speed: 2
+    health: 150
+    special: 0
+    gold: 600
+  - unitKey: UndeadAxeMan
+    attack: 12
+    speed: 3
+    health: 400
+    special: 30
+    gold: 800
+  - unitKey: UndeadMageFire
+    attack: 6
+    speed: 2
+    health: 150
+    special: 0
+    gold: 600

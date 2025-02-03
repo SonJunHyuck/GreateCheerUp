@@ -1,0 +1,8 @@
+UnitKey,Attack,Speed,Health,Special,Gold
+UndeadSwordMan,7,3,200,0,100
+UndeadArcher,5,2,100,0,150
+UndeadHammerMan,1,2,300,20,500
+UndeadRogue,7,4,150,0,300
+UndeadMageIce,10,2,150,0,600
+UndeadAxeMan,12,3,400,30,800
+UndeadMageFire,6,2,150,0,600

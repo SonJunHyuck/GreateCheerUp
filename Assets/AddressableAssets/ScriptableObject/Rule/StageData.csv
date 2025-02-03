@@ -1,0 +1,10 @@
+stageId,tag,spawnCount,minSpawnCount,maxSpawnCount,minInterval,maxInterval
+1,UndeadArcher,10,1,2,3,5
+1,UndeadSwordMan,-1,1,3,3,5
+1,UndeadHammerMan,1,1,1,20,20
+2,UndeadArcher,20,1,3,3,5
+2,UndeadSwordMan,-1,1,3,3,5
+2,UndeadHammerMan,3,1,1,15,15
+3,UndeadArcher,25,1,3,3,5
+3,UndeadSwordMan,-1,1,3,3,5
+3,UndeadHammerMan,4,1,2,10,10
