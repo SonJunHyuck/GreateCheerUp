@@ -114,6 +114,49 @@ Assets/Fonts/
 Assets/Animations/
 Assets/Shaders/
 
+# Addressable 리소스 제외 (코드 및 설정 파일만 포함)
+Assets/Features/**/Addressable/**/*.png
+Assets/Features/**/Addressable/**/*.jpg
+Assets/Features/**/Addressable/**/*.mp3
+Assets/Features/**/Addressable/**/*.wav
+Assets/Features/**/Addressable/**/*.ogg
+Assets/Features/**/Addressable/**/*.ttf
+Assets/Features/**/Addressable/**/*.fbx
+Assets/Features/**/Addressable/**/*.obj
+Assets/Features/**/Addressable/**/*.blend
+Assets/Features/**/Addressable/**/*.dae
+Assets/Features/**/Addressable/**/*.prefab
+Assets/Features/**/Addressable/**/*.controller
+Assets/Features/**/Addressable/**/*.anim
+Assets/Features/**/Addressable/**/*.mat
+Assets/Features/**/Addressable/**/*.shader
+
+Assets/Shared/Addressable/**/*.png
+Assets/Shared/Addressable/**/*.jpg
+Assets/Shared/Addressable/**/*.mp3
+Assets/Shared/Addressable/**/*.wav
+Assets/Shared/Addressable/**/*.ogg
+Assets/Shared/Addressable/**/*.ttf
+Assets/Shared/Addressable/**/*.fbx
+Assets/Shared/Addressable/**/*.obj
+Assets/Shared/Addressable/**/*.blend
+Assets/Shared/Addressable/**/*.dae
+Assets/Shared/Addressable/**/*.prefab
+Assets/Shared/Addressable/**/*.controller
+Assets/Shared/Addressable/**/*.anim
+Assets/Shared/Addressable/**/*.mat
+Assets/Shared/Addressable/**/*.shader
+
+# 제외하지 않을 항목 (Addressable 설정 파일은 유지)
+!Assets/Features/**/Addressable/**/*.asset
+!Assets/Features/**/Addressable/**/*.json
+!Assets/Features/**/Addressable/**/*.txt
+!Assets/Features/**/Addressable/**/*.yaml
+!Assets/Shared/Addressable/**/*.asset
+!Assets/Shared/Addressable/**/*.json
+!Assets/Shared/Addressable/**/*.txt
+!Assets/Shared/Addressable/**/*.yaml
+
 # 제외하지 않을 항목 (C# 스크립트, 프로젝트 설정 파일)
 !Assets/**/*.cs
 !Assets/**/*.asmdef
